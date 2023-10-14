@@ -21,9 +21,10 @@ loaderBar.classList.add('display-none');
 },6100);
 
 })
-if (screen.width>450){
-    document.querySelector('.options').innerHTML=`
-    <button class="btn yes">Yes</button>
-    <button class="btn no">No</button>
-    `;
-}
+yesbtn.addEventListener('click',()=>{
+    popup.innerHTML='thank you for tring the webside ';
+})
+nobtn.addEventListener('click',()=>{
+    popup.innerHTML='i dont give a fuck';
+})
+
