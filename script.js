@@ -21,3 +21,9 @@ loaderBar.classList.add('display-none');
 },6100);
 
 })
+if (screen.width>450){
+    document.querySelector('.options').innerHTML=`
+    <button class="btn yes">Yes</button>
+    <button class="btn no">No</button>
+    `;
+}
