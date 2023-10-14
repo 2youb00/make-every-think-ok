@@ -184,6 +184,31 @@ width: 100%;
 
 
 
+/*------------in the phone-------------------/*/
+@media screen and (max-width:450px){
+.button{
+  width: 80%;
+}
+.modal{
+  width: 60%;
+}
+.options{
+  flex-direction: column;
+  display: grid;
+    gap: 0.5rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+.btn{
+  margin-right: 0;
+}
+.no{
+  width: 100%; 
+}
+.yes{
+  width: 100%;
+  
+}
+}
 
 
 
